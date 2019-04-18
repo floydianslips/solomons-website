@@ -24,3 +24,5 @@ yarn-error.log*
 
 /public/images
 .env
+.gitignore
+package-lock.json
