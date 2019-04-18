@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import owl from './owl.jpg';
-import solomon from './solomon.jpg'
+import RandomImage from './RandomImage';
 
 export default class Carousel extends Component {
   render () {
@@ -8,12 +7,12 @@ export default class Carousel extends Component {
       <>
       <div className="wrap">
       	<div className="cube">
-      		<div className="front"><img src={solomon} alt="sol"/></div>
-      		<div className="back"><img src={solomon} alt="sol"/></div>
-      		<div className="top"><img src={solomon} alt="sol"/></div>
-      		<div className="bottom"><img src={solomon} alt="sol"/></div>
-      		<div className="left"><img src={solomon} alt="sol"/></div>
-      		<div className="right"><img src={solomon} alt="sol"/></div>
+      		<div className="front"><RandomImage /></div>
+      		<div className="back"><RandomImage /></div>
+      		<div className="top"><RandomImage /></div>
+      		<div className="bottom"><RandomImage /></div>
+      		<div className="left"><RandomImage /></div>
+      		<div className="right"><RandomImage /></div>
       	</div>
       </div>
     </>
