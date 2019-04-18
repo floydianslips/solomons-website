@@ -10,10 +10,10 @@ class App extends Component {
         <header className="App-header">
           <p>
             Solomon is the Best!
-            </p>
             <br/>
             <Carousel />
 
+          </p>
         </header>
       </div>
     );
